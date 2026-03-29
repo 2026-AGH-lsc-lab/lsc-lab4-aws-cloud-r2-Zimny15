@@ -1,0 +1,18 @@
+=== Lambda zip ===
+{
+    "StatusCode": 200,
+    "ExecutedVersion": "$LATEST"
+}
+{"statusCode": 200, "headers": {"Content-Type": "application/json", "X-Server-Time-Ms": "79.090", "X-Instance-Id": "2026/03/29/[$LATEST]8f2b610160064e17b5a2e3337a7a6635", "X-Cold-Start": "true"}, "body": "{\"results\": [{\"index\": 35859, \"distance\": 12.001459121704102}, {\"index\": 24682, \"distance\": 12.059946060180664}, {\"index\": 35397, \"distance\": 12.487079620361328}, {\"index\": 20160, \"distance\": 12.489519119262695}, {\"index\": 30454, \"distance\": 12.499402046203613}], \"query_time_ms\": 79.09, \"instance_id\": \"2026/03/29/[$LATEST]8f2b610160064e17b5a2e3337a7a6635\", \"cold_start\": true}"}
+=== Lambda container ===
+{
+    "StatusCode": 200,
+    "ExecutedVersion": "$LATEST"
+}
+{"statusCode": 200, "headers": {"Content-Type": "application/json", "X-Server-Time-Ms": "70.263", "X-Instance-Id": "2026/03/29/[$LATEST]78cf1be558404fb39c9e98c01fc01da6", "X-Cold-Start": "true"}, "body": "{\"results\": [{\"index\": 35859, \"distance\": 12.001459121704102}, {\"index\": 24682, \"distance\": 12.059946060180664}, {\"index\": 35397, \"distance\": 12.487079620361328}, {\"index\": 20160, \"distance\": 12.489519119262695}, {\"index\": 30454, \"distance\": 12.499402046203613}], \"query_time_ms\": 70.263, \"instance_id\": \"2026/03/29/[$LATEST]78cf1be558404fb39c9e98c01fc01da6\", \"cold_start\": true}"}
+=== Fargate ===
+{"instance_id":"ip-172-31-64-213.ec2.internal","query_time_ms":23.473,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
+
+=== EC2 ===
+{"instance_id":"ca52af264f83","query_time_ms":25.349,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
+
